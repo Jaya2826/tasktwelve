@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tasksix.component.css']
 })
 export class TasksixComponent implements OnInit {
-
+  public isCollapsed = true;
   constructor() { }
 
   ngOnInit(): void {
