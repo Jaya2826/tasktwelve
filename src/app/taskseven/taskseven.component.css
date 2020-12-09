@@ -11,3 +11,30 @@
     font-weight: 2px;
     color:dodgerblue;
 }
+.srch-rt
+{
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    margin-right: 5px;
+}
+.srch-bx
+{
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border:1px solid gray;
+}
+.tbl-user
+{
+    table-layout: fixed;
+    width: 100%;
+}
+.tbl-row
+{
+    padding:15px 60px;
+    border-bottom: 1px solid gray;
+}
