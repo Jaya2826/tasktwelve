@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ListpageComponent } from './listpage.component';
+import { TaskfourComponent } from './taskfour.component';
 
-describe('ListpageComponent', () => {
-  let component: ListpageComponent;
-  let fixture: ComponentFixture<ListpageComponent>;
+describe('TaskfourComponent', () => {
+  let component: TaskfourComponent;
+  let fixture: ComponentFixture<TaskfourComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ListpageComponent ]
+      declarations: [ TaskfourComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ListpageComponent);
+    fixture = TestBed.createComponent(TaskfourComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

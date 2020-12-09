@@ -1,0 +1,39 @@
+.plans-styl
+{
+    background-color: dodgerblue;
+    padding:10px 0px 10px 150px;
+    margin-right: calc(2.5%);
+    border-right: 10px solid rgb(179, 179, 179);
+}
+.btn-color{
+    color: dodgerblue;
+    border-color: dodgerblue;
+    background-color: ghostwhite;
+}
+.tbl-brdr{
+    border:1px solid rgb(179, 179, 179);
+    width: 100%;
+    table-layout: fixed;
+    border-left: none;
+    border-right: none;
+}
+.tbl-brdr-edge{
+    border:1px solid rgb(179, 179, 179);
+    width: 100%;
+    table-layout: fixed;
+    border-right: none;
+    border-left:none;
+}
+.tbl-mar{
+    width:95%;
+    margin:0px auto;
+}
+.ttl-size
+{
+    font-size: x-large;
+}
+.subttl-size
+{
+    font-size: large;
+    padding: 30px 2px;
+}

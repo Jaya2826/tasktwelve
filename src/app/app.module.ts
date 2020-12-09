@@ -3,12 +3,24 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ListpageComponent } from './listpage/listpage.component';
+import { TaskthreeComponent } from './taskthree/taskthree.component';
+import { TaskfourComponent } from './taskfour/taskfour.component';
+import { TaskfiveComponent } from './taskfive/taskfive.component';
+import { TasksixComponent } from './tasksix/tasksix.component';
+import { TasksevenComponent } from './taskseven/taskseven.component';
+import { TaskeightComponent } from './taskeight/taskeight.component';
+import { TasktwoComponent } from './tasktwo/tasktwo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListpageComponent
+    TaskthreeComponent,
+    TaskfourComponent,
+    TaskfiveComponent,
+    TasksixComponent,
+    TasksevenComponent,
+    TaskeightComponent,
+    TasktwoComponent
   ],
   imports: [
     BrowserModule,
