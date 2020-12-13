@@ -11,6 +11,8 @@ import { TasksixComponent } from './tasksix/tasksix.component';
 import { TasksevenComponent } from './taskseven/taskseven.component';
 import { TaskeightComponent } from './taskeight/taskeight.component';
 import { TasktwoComponent } from './tasktwo/tasktwo.component';
+import { TasknineComponent } from './tasknine/tasknine.component';
+import { TasktenComponent } from './taskten/taskten.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { TasktwoComponent } from './tasktwo/tasktwo.component';
     TasksixComponent,
     TasksevenComponent,
     TaskeightComponent,
-    TasktwoComponent
+    TasktwoComponent,
+    TasknineComponent,
+    TasktenComponent
   ],
   imports: [
     BrowserModule,
