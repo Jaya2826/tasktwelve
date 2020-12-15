@@ -1,0 +1,24 @@
+.nav-div
+{
+    position: absolute;
+    width: 20%;
+    height:85%;
+}
+.btn-div
+{
+    width:100%;
+}
+.container
+{
+    float:right;
+    width:80%;
+    height:85%;
+    background-color:rgb(207, 205, 205);
+}
+.card-div
+{
+    width:30%;
+    padding:20px;
+    float: left;
+    margin:20px
+}

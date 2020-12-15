@@ -13,6 +13,11 @@ import { TaskeightComponent } from './taskeight/taskeight.component';
 import { TasktwoComponent } from './tasktwo/tasktwo.component';
 import { TasknineComponent } from './tasknine/tasknine.component';
 import { TasktenComponent } from './taskten/taskten.component';
+import { TaskelevenComponent } from './taskeleven/taskeleven.component';
+import { TasktwelveComponent } from './tasktwelve/tasktwelve.component';
+import { TaskthirteenComponent } from './taskthirteen/taskthirteen.component';
+import { TaskfourteenComponent } from './taskfourteen/taskfourteen.component';
+import { TaskfifteenComponent } from './taskfifteen/taskfifteen.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +30,12 @@ import { TasktenComponent } from './taskten/taskten.component';
     TaskeightComponent,
     TasktwoComponent,
     TasknineComponent,
-    TasktenComponent
+    TasktenComponent,
+    TaskelevenComponent,
+    TasktwelveComponent,
+    TaskthirteenComponent,
+    TaskfourteenComponent,
+    TaskfifteenComponent
   ],
   imports: [
     BrowserModule,
